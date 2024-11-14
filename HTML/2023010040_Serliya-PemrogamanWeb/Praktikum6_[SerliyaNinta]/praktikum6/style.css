@@ -1,0 +1,166 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #a2eed1;
+    color: rgb(48, 47, 47);
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .logo img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+header p {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #383f3d;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #a4caf0;
+    border-radius: 5px;
+}
+
+/* Main Body Layout */
+.main-body {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+/* Content Section */
+.content {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.content h2 {
+    color: #363738;
+    margin-bottom: 15px;
+}
+
+.content h3 {
+    color: #070707;
+    margin-top: 10px;
+}
+
+.content p,
+.content ul {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+/* Sidebar Section */
+.sidebar {
+    flex: 1;
+    background-color: #c8edf1;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.sidebar h3 {
+    color: #16212c;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 8px;
+}
+
+.sidebar ul li a {
+    color: #16212c;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer .small-logo {
+    width: 50px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+}
