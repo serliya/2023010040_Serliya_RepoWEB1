@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+        <img src="image/header.jpg" alt="Header" class="header-image">
+    </header>
+
+    <!--Navigasi-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="visi-misi.html">Visi & Misi</a></li>
+            <li><a href="informasi.html">Informasi</a></li>
+            <li><a href="dosen.html">Dosen</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="galeri.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Konten Utama -->
+    <main>
+        <section>
+            <h1>Hubungi Kami</h1>
+            <p>Jika Anda memiliki pertanyaan, saran, atau ingin menghubungi kami, silakan gunakan informasi berikut:</p>
+            
+            <!-- Informasi Kontak -->
+            <div class="contact-info">
+                <h2>Informasi Kontak</h2>
+                <ul>
+                    <li><strong>Alamat:</strong> Balekambang Rt 02 Rw 07 Gemiring Lor Nalumsari Jepara 59466</li>
+                    <li><strong>Email:</strong> <a href="mailto: politbangjepara@gmail.com / admin@polibang.ac.id">polibangjepara@gmail.com/admin@polibang.ac.id</a></li>
+                    <li><strong>Telepon:</strong> Miftahudin, S.Ag.M.M. +62 813-2610-0971</li>
+                </ul>
+            </div>
+
+            <!-- Formulir Kontak -->
+            <div class="contact-form">
+                <h2>Kirim Pesan</h2>
+                <form action="proses_kontak.php" method="post">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                    
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" placeholder="Tulis pesan Anda di sini" rows="5" required></textarea>
+                    
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© Copyright 2024 All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

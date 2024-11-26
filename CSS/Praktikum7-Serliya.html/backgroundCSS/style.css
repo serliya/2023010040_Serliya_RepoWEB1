@@ -1,0 +1,14 @@
+body {
+    background-image: url('img/rpl\ b\ logo\ \(1\).png'); /* Ganti 'your-image.jpg' dengan path gambar Anda */
+    background-repeat: repeat; /* Mengulang background hanya secara vertikal */
+    background-position: center; /* Posisi background di tengah */
+    background-size: 100px 100px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+}
