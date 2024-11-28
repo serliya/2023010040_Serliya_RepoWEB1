@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-image: url("assets/image/header\ awal.jpg");
+    background-image: url(../image/header awal.jpg);
     color: rgb(10, 10, 10);
     padding: 10px 0;
     text-align: center;
@@ -95,6 +95,7 @@ header h1 {
 .login-btn:hover {
     background-color: #b30086; 
 }
+
 
 /* Gaya untuk testimonial */
 .testimonial {
@@ -230,6 +231,7 @@ footer {
 }
 footer img {
     max-width: 50px;
+    
 }
 footer p {
     margin: 5px 0;
