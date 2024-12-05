@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header .logo {
+    max-width: 120px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f4c842;
+}
+
+section {
+    margin: 30px auto;
+    max-width: 1000px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Service Section */
+.service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 30px auto;
+    max-width: 1000px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#home img {
+    width: 100%; /* Mengisi lebar penuh dari section */
+    height: auto; /* Menjaga rasio aspek gambar */
+    border-radius: 8px; /* Konsisten dengan section */
+    object-fit: cover; /* Memastikan gambar proporsional */
+    max-height: 400px; /* Batas tinggi maksimum gambar */
+}
+
+
+.service h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.service p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f4c842;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header nav ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .service {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service img {
+        margin-bottom: 10px;
+    }
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Ukuran maksimum gambar */
+    border-radius: 8px; /* Opsional untuk gaya */
+}
+
+
+
