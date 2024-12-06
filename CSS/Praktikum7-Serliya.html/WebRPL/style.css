@@ -206,20 +206,35 @@ main {
     margin-top: 20px;
     color: #003b91;
 }
+
 .gallery {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
+    text-align: center; /* Memusatkan teks dan gambar */
+    margin: 20px auto;
 }
-.gallery img {
-    width: 10%;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    transition: 0.3s;    
+
+.gallery h1 {
+    margin-bottom: 20px; /* Memberikan jarak antara teks dan gambar */
 }
-.gallery img:hover {
-    transform: scale(1.05);
+
+.gallery .images {
+    display: flex; /* Flexbox untuk menata gambar */
+    justify-content: center; /* Memusatkan gambar */
+    gap: 20px; /* Jarak antar gambar */
+    flex-wrap: wrap; /* Membungkus gambar jika ruang tidak cukup */
 }
+
+.gallery .images a img {
+    width: 200px; /* Ukuran gambar */
+    height: auto; /* Menjaga proporsi gambar */
+    border-radius: 5px; /* Opsional: sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opsional: bayangan */
+    transition: transform 0.3s; /* Animasi saat hover */
+}
+
+.gallery .images a img:hover {
+    transform: scale(1.1); /* Efek memperbesar gambar saat hover */
+}
+
 
 /* Footer */
 footer {
