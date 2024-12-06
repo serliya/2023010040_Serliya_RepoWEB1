@@ -64,15 +64,14 @@ nav {
     padding: 0;
 }
 
-.nav-menu li a {
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    color: #ffffff; /* Warna teks putih */
-    text-transform: uppercase; /* Huruf kapital */
-    text-decoration: none; /* Menghilangkan garis bawah */
-    padding: 5px 15px; /* Padding untuk area klik */
-    transition: background-color 0.3s ease; /* Animasi transisi */
-    border-radius: 5px; /* Membuat sudut sedikit melengkung */
+nav ul li a {
+    color: white; /* Warna teks putih */
+    font-weight: bold; /* Teks tebal */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf besar */
+    text-decoration: none; /* Menghapus garis bawah */
+    padding: 5px 15px; /* Ruang klik untuk tautan */
+    border-radius: 5px; /* Membuat sudut melengkung */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animasi transisi */
 }
 
 .nav-menu li a:hover {
@@ -111,6 +110,14 @@ main {
 }
 
 /* Daftar Dosen */
+.colored-header {
+    background-color: #39dbf8;
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 .dosen-list {
     display: flex;
     justify-content: space-around;
@@ -141,7 +148,34 @@ main {
     color: #333;
 }
 
+#visi-misi {
+    background-color: #f9f9f9; /* Warna latar khusus */
+    padding: 20px; /* Jarak di dalam kontainer */
+    border-radius: 5px; /* Membuat sudut melengkung */
+    margin: 20px auto; /* Margin atas dan bawah */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+#visi-misi h2 {
+    color: #003b91; /* Warna teks judul */
+    margin-bottom: 10px; /* Memberikan jarak bawah */
+}
+
+#visi-misi p, #visi-misi ul li {
+    color: #333; /* Warna teks */
+    line-height: 1.6; /* Jarak antar baris teks */
+}
+
+
 /* Kontak */
+.colored-header {
+    background-color: #39dbf8;
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 .contact-info {
     margin: 20px 0;
     padding: 10px;
@@ -190,6 +224,26 @@ main {
     background: darkcyan;
 }
 
+/* Gaya untuk tautan */
+ul li a {
+    color: #007bff; /* Warna biru untuk menonjolkan tautan */
+    text-decoration: underline; /* Menambahkan garis bawah */
+    font-weight: bold; /* Membuat teks lebih tegas */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Efek transisi halus */
+}
+
+/* Efek hover untuk tautan */
+ul li a:hover {
+    color: #0056b3; /* Warna biru gelap saat hover */
+    text-decoration: none; /* Menghilangkan garis bawah saat hover */
+    cursor: pointer; /* Mengubah kursor menjadi tangan */
+}
+
+/* Memberikan jarak antar item dalam daftar */
+ul li {
+    margin-bottom: 10px; /* Memberikan jarak antar item */
+}
+
 /* Konten Tengah */
 .content {
     width: 75%;
@@ -207,6 +261,45 @@ main {
     color: #003b91;
 }
 
+/* Informasi */
+.colored-header {
+    background-color: #39dbf8;
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#informasi {
+    background-color: #e3f2fd; /* Warna biru muda untuk latar belakang */
+    padding: 20px; /* Jarak di dalam kontainer */
+    margin: 20px auto; /* Margin atas dan bawah */
+    border-radius: 5px; /* Membuat sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+#informasi h2 {
+    color: #003b91; /* Warna teks judul */
+    margin-bottom: 10px; /* Memberikan jarak bawah */
+    text-align: center; /* Pusatkan teks */
+}
+
+#informasi p {
+    color: #333; /* Warna teks konten */
+    line-height: 1.6; /* Jarak antar baris teks */
+    text-align: justify; /* Meratakan teks */
+}
+
+
+/* Galeri */
+.colored-header {
+    background-color: #39dbf8;
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 .gallery {
     text-align: center; /* Memusatkan teks dan gambar */
     margin: 20px auto;
@@ -234,7 +327,6 @@ main {
 .gallery .images a img:hover {
     transform: scale(1.1); /* Efek memperbesar gambar saat hover */
 }
-
 
 /* Footer */
 footer {
