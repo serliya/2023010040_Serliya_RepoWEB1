@@ -57,7 +57,7 @@
 
 <!-- Tombol Kembali ke Halaman Utama -->
 <div class="container text-center mt-5">
-    <a href="../home.php" class="btn btn-warning mt-5">Kembali</a>
+    <a href="../index.php" class="btn btn-warning mt-5">Kembali</a>
 </div>
 
 <!-- Footer -->

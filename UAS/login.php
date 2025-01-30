@@ -17,7 +17,7 @@
         <div class="row justify-content-center">
             <div class="container mt-4">
                 <h2>Login</h2>
-                <form action="home.php" method="GET"> <!-- Diubah action ke home.html -->
+                <form action="index.php" method="GET"> <!-- Diubah action ke index.html -->
                     <div class="form-group">
                         <label for="username">Username</label>
                         <input type="text" class="form-control" id="username" name="username" required>
@@ -27,15 +27,13 @@
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
                     <div class="form-group mt-4">
-                        <p>Masuk sebagai:</p>
+
                         <!-- Button for roles -->
                         <div class="d-flex gap-3">
-                            <button type="submit" class="btn btn-success" name="role" value="customer">Customer</button>
-                            <button type="submit" class="btn btn-warning" name="role" value="admin">Admin</button>
+                            <a href="memesan.php" class="btn btn-warning" name="role" value="masuk">Masuk</a>
                         </div>
                     </div>
                 </form>
-                <p class="mt-3 text-center">Belum punya akun? <a href="register.php">Daftar di sini</a></p>
             </div>
         </div>
     </div>
