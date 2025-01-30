@@ -17,7 +17,7 @@
         <div class="row justify-content-center">
             <div class="container mt-4">
                 <h2>Login</h2>
-                <form action="index.php" method="GET"> <!-- Diubah action ke index.html -->
+                <form action="view/memesan.php" method="GET"> <!-- Diubah action ke memesan.html -->
                     <div class="form-group">
                         <label for="username">Username</label>
                         <input type="text" class="form-control" id="username" name="username" required>
@@ -29,9 +29,10 @@
                     <div class="form-group mt-4">
 
                         <!-- Button for roles -->
-                        <div class="d-flex gap-3">
-                            <a href="memesan.php" class="btn btn-warning" name="role" value="masuk">Masuk</a>
-                        </div>
+                        <button data-mdb-button-init data-mdb-ripple-init class="btn btn-info btn-lg btn-block"
+                                    type="submit">
+                                    <i class="bi bi-person"></i> Login
+                                </button>
                     </div>
                 </form>
             </div>
