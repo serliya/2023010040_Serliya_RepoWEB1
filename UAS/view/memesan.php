@@ -2,7 +2,7 @@
 <?php include "../header.php" ?>
 
 <div class="container">
-<h1 class="text-center">Data untuk CRUD Operations</h1>
+<h1 class="text-center">Data untuk pemesanan</h1>
 <a href="create.php" class='btn btn-outline-dark mb-2'>
 <i class="bi bi-person-plus"></i> Tambah Data Baru</a>
 

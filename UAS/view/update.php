@@ -30,7 +30,8 @@
 
         // Query SQL untuk memperbarui data
         $query = "UPDATE makanan SET nama = '{$nama}', namamakanan = '{$namamakanan}', namaminuman = '{$namaminuman}', {$jumlahminuman} = '{$_POST['jumlahminuman']}' WHERE id = {$makananid}";
-        $update_data = mysqli_query($conn, $query);
+        $query = "UPDATE makanan SET kolom1 = 'nilai_baru' WHERE id = 16";
+
 
         echo "<script type='text/javascript'>alert('Data berhasil diperbarui!')</script>";
     }
